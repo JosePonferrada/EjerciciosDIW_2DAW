@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-family: 'Cascadia Code', sans-serif;
+    background-color: rgb(130, 132, 241);
+    padding: 10px;
+    margin: 10px;
+}
+
+section {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+#sectionDIV {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+ul, li, p {
+    padding: 10px;
+    margin: 10px;
+}
