@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0px;
+}
+
+.cookiesTodo {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    background-color: lightblue;
+}
+
+.cookiesDiv {
+    text-align: center;
+    background-color: lightblue;
+}
+
+#btnAceptar:hover {
+    background-color: green;
+    color: white;
+}
+
+#btnRechazar:hover {
+    background-color: red;
+    color: white;
+}
+
+div {
+    padding: 10px;
+}
