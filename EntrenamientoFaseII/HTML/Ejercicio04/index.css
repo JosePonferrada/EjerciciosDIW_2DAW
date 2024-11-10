@@ -35,8 +35,27 @@ section {
     flex-direction: row;
 }
 
+.row > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+    padding: 1em;
+}
+
 .containerLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 400px;
+    padding: 1em;
+}
+
+img {
+    width: 100%;
 }
 
 .contenidoRight {
@@ -52,6 +71,11 @@ section {
 .contenidoRight div div {
     width: 200px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 #pos1 { background-color: lightgreen; }

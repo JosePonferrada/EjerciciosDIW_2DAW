@@ -9,17 +9,29 @@
 </head>
 <body>
     
-    <div class="cookiesTodo">
-        <div class="cookiesDiv">
-            <h4>Cuadro de cookies</h4>
-            <input type="button" value="Aceptar" id="btnAceptar" onclick="ocultarCookies()">
-            <input type="button" value="Rechazar" id="btnRechazar" onclick="ocultarCookies()">
+    <!-- Block div -->
+    <div id="divBlock">
+        <div id="cookiesDiv">
+            <p>Cartel de cookies</p>
+            <div id="buttons">
+                <input type="button" id="accept" value="Aceptar cookies" onclick="hideCookies()">
+                <input type="button" id="decline" value="Rechazar cookies" onclick="hideCookies()">
+            </div>
         </div>
     </div>
-    
-    <div>
-        Ingrese un número: <input type="text" id="txtNumero" placeholder="Ingrese un número">
+
+    <div id="content">
+        <h1>Hola usuario</h1>
+        <p>Introduzca un texto: <input type="text"></p>
+        <img src="../Ejercicio04/img/alo.jpg">
     </div>
+
+    <script>
+        function hideCookies() {
+            document.getElementById("divBlock").style.display = "none";
+            document.querySelector("body").style.overflow = "visible";
+        }
+    </script>
 
 </body>
 </html>

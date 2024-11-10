@@ -7,8 +7,16 @@
 h1, h2 {
     font-family: 'Cascadia Code', sans-serif;
     background-color: rgb(130, 132, 241);
+}
+
+h1 {
     padding: 10px;
-    margin: 10px;
+}
+
+h2 {
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 section {
@@ -24,7 +32,7 @@ section {
 img {
     width: 150px;
     height: 150px;
-    margin: 10px;
+    margin: 0px;
 }
 
 ul, li, p {
@@ -45,6 +53,18 @@ ul, li, p {
     margin: 0;
 }
 
+.containerNav a {
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+    display: block;
+}
+
+.containerNav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 nav {
     display: flex;
     flex-direction: column;
@@ -58,4 +78,5 @@ nav a:hover {
 
 .containerMain {
     margin-left: 20%;
+    padding-left: 15px;
 }

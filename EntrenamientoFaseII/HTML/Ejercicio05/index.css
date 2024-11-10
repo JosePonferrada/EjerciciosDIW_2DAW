@@ -1,31 +1,59 @@
 body {
     margin: 0;
     padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
-.cookiesTodo {
+#divBlock {
+    display: flex;
+    flex-direction: column;
     position: fixed;
-    bottom: 0;
     width: 100%;
-    padding: 5px;
-    background-color: lightblue;
+    height: 100vh;
+    background-color: hsla(0, 0%, 83%, 0.25);
 }
 
-.cookiesDiv {
-    text-align: center;
-    background-color: lightblue;
-}
-
-#btnAceptar:hover {
+#accept:hover {
     background-color: green;
     color: white;
 }
 
-#btnRechazar:hover {
+#decline:hover {
     background-color: red;
     color: white;
 }
 
-div {
-    padding: 10px;
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cookiesDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: lightsteelblue;
+    padding: 1em;
+    border: 1px solid black;
+    height: 200px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#cookiesDiv p {
+    font-weight: bold;
+    font-size: x-large;
 }
