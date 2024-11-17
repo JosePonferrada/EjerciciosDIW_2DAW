@@ -1,0 +1,18 @@
+// Estilos de la página
+//
+// Importamos el fichero de colores.
+@import "./colors";
+// Importamos el fichero de fuentes.
+@import "./tipography";
+// Importamos el fichero de bordes.
+@import "./borders";
+// Importamos el fichero del navbar.
+@import "./navbar";
+// Importamos el fichero de spacing.
+@import "./spacing";
+
+// Importamos el fichero de bootstrap.
+@import "../node_modules/bootstrap/scss/bootstrap";
+// Importamos el fichero de bootstrap-icons.
+$bootstrap-icons-font-src: url("../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2") format("woff2"), url("../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff") format("woff");
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.scss";

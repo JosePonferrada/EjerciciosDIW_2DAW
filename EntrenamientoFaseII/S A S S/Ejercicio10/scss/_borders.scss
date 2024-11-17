@@ -1,0 +1,17 @@
+// Ajustes de bordes
+$border-radius-large: 0.5rem;
+$border-radius-small: 0;
+
+// Bordes redondeados en dispositivos grandes
+@media (min-width: 992px) {
+  .card, .navbar, .btn {
+    border-radius: $border-radius-large;
+  }
+}
+
+// Bordes cuadrados en dispositivos medianos y pequeños
+@media (max-width: 991px) {
+  .card, .navbar, .btn {
+    border-radius: $border-radius-small;
+  }
+}

@@ -1,0 +1,14 @@
+// Estilo del logo
+.navbar-brand img {
+    height: 120px;
+  }
+  
+  // Ajuste de colores en dispositivos pequeños y medianos
+  @media (max-width: 991px) {
+    .navbar {
+      background-color: $dark;
+      .nav-link {
+        color: $light;
+      }
+    }
+  }

@@ -1,0 +1,23 @@
+// Variables para tipografías
+$font-primary: 'Arial, sans-serif';
+$font-secondary: 'Georgia, serif';
+
+// Tipografía para el menú y títulos de tarjetas
+.navbar, .card-title {
+  font-family: $font-primary;
+}
+
+// Tipografía para el resto del contenido
+body {
+  font-family: $font-secondary;
+}
+
+// Ajusta el tamaño en dispositivos medianos y pequeños
+@media (max-width: 992px) {
+  body {
+    font-size: 0.9rem;
+  }
+  .navbar, .card-title {
+    font-size: 1.1rem;
+  }
+}

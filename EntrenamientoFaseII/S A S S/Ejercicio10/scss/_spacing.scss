@@ -1,0 +1,19 @@
+// Ajuste del espaciado general
+$spacing-large: 1.5rem;
+$spacing-small: 0.75rem;
+
+// Reducción del espaciado en dispositivos pequeños y medianos
+@media (max-width: 991px) {
+  .container, .row, .col, .card, .navbar {
+    margin: $spacing-small;
+    padding: $spacing-small;
+  }
+}
+
+// Espaciado normal para dispositivos grandes
+@media (min-width: 992px) {
+  .container, .row, .col, .card, .navbar {
+    margin: $spacing-large;
+    padding: $spacing-large;
+  }
+}
